@@ -1,0 +1,379 @@
+/*Generales*/
+
+.fa-chevron-right {
+  color: #00b1c5;
+}
+
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #00b1c5;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover {
+  color: white !important;
+}
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+/*Cabecera y titulo de página principal*/
+#header {
+  height: 100vh;
+  background: url(../img/home.jpg) center center/cover no-repeat;
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+.navbar-logo {
+  margin-right: 0px !important;
+}
+.nav-link {
+  font-size: 2.3vh;
+}
+
+.navbar-general {
+  max-width: 100%;
+}
+.link-navbar {
+  color: white;
+}
+/*Navbar responsive
+#navbar-responsive {
+  border: 1px solid red;
+}*/
+.container-title {
+  margin-left: 10%;
+  margin-top: 50vh;
+}
+.vuela {
+  font-weight: 700;
+  font-size: 8vw;
+  text-shadow: 0px 0px 10px gray;
+  color: rgb(104, 104, 104);
+}
+
+.ahora {
+  font-size: 5vw;
+  font-weight: 500;
+  text-shadow: 0px 0px 10px gray;
+  color: white;
+}
+.p-button-text {
+  color: white !important;
+}
+/*Reservaciones*/
+#reservaciones {
+  background-color: #e9ecef;
+  margin: -6vh auto 6vh auto;
+  width: 80%;
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  padding: 2% 3% 2% 3%;
+  border-radius: 5px;
+}
+
+#tab {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+#form-vuelos {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.datepicker {
+  padding: 10px;
+  border-color: #ced4da !important;
+}
+
+.flag {
+  width: 35px;
+  height: 23px;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+
+.flag-ve {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: -4.939%;
+}
+
+.flag-co {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 19.44%;
+}
+
+.flag-eu {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: -7.01%;
+}
+
+.flag-cu {
+  background-image: url("../img/curazao.png");
+  background-size: 100%;
+}
+
+.flag-aru {
+  background-image: url("../img/aruba.png");
+  background-size: 100%;
+}
+
+.flag-ar {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 104.95%;
+}
+
+.flag-al {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 22.31405%;
+}
+
+.flag-br {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 212.78%;
+}
+
+.flag-ca {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 14.891%;
+}
+
+.flag-ch {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 18.191%;
+}
+
+.flag-cub {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 20.251%;
+}
+
+.flag-eau {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 0.841%;
+}
+
+.flag-es {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 26.861%;
+}
+
+.flag-fr {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 29.761%;
+}
+
+.flag-it {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 42.981%;
+}
+
+.flag-me {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 61.571%;
+}
+
+.flag-pa {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 68.185%;
+}
+
+.flag-pe {
+  background-image: url("../img/flags_responsive.png");
+  background-size: 100%;
+  background-position-y: 68.591%;
+}
+/*Tarjetas*/
+#tarjetas {
+  border: none;
+}
+.button-card:hover {
+  border-color: #00b1c5;
+  color: black;
+}
+/*carusel*/
+#carusel {
+  margin: 0px auto;
+  width: 80%;
+}
+.card-title {
+  color: white;
+}
+.card-item {
+  background-color: #232b386e;
+}
+#cardOne {
+  background: url("../img/viaje.jpg") center center/cover no-repeat;
+}
+#cardTwo {
+  background: url("../img/status.jpg") center center/cover no-repeat;
+}
+#cardThree {
+  background: url("../img/venezuela.jpg") center center/cover no-repeat;
+}
+/*.button-card {
+}
+/*pie de página*/
+#footer {
+  background-color: #232b38;
+
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+.redes {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.icono-redes,
+#menu-footer {
+  color: #c0c0c0;
+  transition: all 300ms;
+}
+#menu-footer {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+#facebook:hover {
+  color: #1977f3;
+}
+#instagram:hover {
+  color: #dd3a67;
+}
+#twitter:hover {
+  color: #1da1f2;
+}
+#youtube:hover {
+  color: #ff0000;
+}
+#whatsapp:hover {
+  color: #00a859;
+}
+.divider {
+  background-color: #c0c0c0;
+}
+.item-footer {
+  color: #c0c0c0;
+}
+#container-menu-footer {
+  background-color: #171c24;
+}
+.item-menu {
+  font-size: 1.8vh;
+}
+.copyright {
+  font-size: 10px;
+  color: #c0c0c0;
+}
+
+.pie-footer {
+  background: url("../img/fondo-footer.png") center center/cover no-repeat;
+  position: relative;
+}
+#logo-star {
+  width: 40%;
+  height: 70%;
+}
+#logo-footer {
+  width: 20%;
+  height: 100%;
+}
+/*Responsive*/
+@media (max-width: 1024px) {
+  #logo-star {
+    height: 4vh;
+  }
+  #logo-footer {
+    height: 5vh;
+  }
+}
+@media (max-width: 769px) {
+  #logo-star {
+    height: 4vh;
+    width: 30vw;
+  }
+  #logo-footer {
+    height: 5vh;
+    width: 15vw;
+  }
+}
+@media (max-width: 426px) {
+  #logo-star {
+    height: 3vh;
+    width: 40vw;
+  }
+  #logo-footer {
+    height: 5vh;
+    width: 30vw;
+  }
+  #reservaciones {
+    width: 100%;
+  }
+  .vuela {
+    font-size: 15vw;
+  }
+  .ahora {
+    font-size: 10vw;
+  }
+  .container-title {
+    margin-left: 10%;
+    margin-top: 40vh;
+  }
+  #navbar-general {
+    display: none !important;
+  }
+}
+@media (max-width: 376px) {
+  #logo-star {
+    height: 4vh;
+    width: 42vw;
+  }
+  #logo-footer {
+    height: 5vh;
+    width: 30vw;
+  }
+  #reservaciones {
+    width: 100%;
+  }
+}
